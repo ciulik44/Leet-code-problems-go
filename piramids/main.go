@@ -8,7 +8,7 @@ func main() {
 	fmt.Scan(&rows)
 
 	for i := 0; i < rows; i++ {
-		for k := 0; k < rows-i-1; k++ {
+		for k := 0; k < rows-i; k++ {
 			fmt.Print(" ")
 		}
 
